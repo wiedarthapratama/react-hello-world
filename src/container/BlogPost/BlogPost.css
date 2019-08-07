@@ -1,0 +1,24 @@
+.container{
+    width: 90%;
+    margin-left: 5%;
+}
+.card{
+    width: 250px;
+    border: 1px solid #000;
+}
+/* .img-thumb{
+    width: 100%;
+} */
+img{
+    width: 100%;
+}
+.card-body{
+    padding: 10px;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.content{
+    color: darkgrey;
+}
