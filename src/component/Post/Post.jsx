@@ -7,8 +7,9 @@ const Post = (props) => {
                 <img src="https://placeimg.com/200/150/tech" alt=""/>
             </div>
             <div className="card-body">
-                <p className="title">{props.title}</p>
-                <p className="content">{props.desc}</p>
+                <p className="title">{props.data.title}</p>
+                <p className="content">{props.data.body}</p>
+                <button className="btn" onClick={() => props.remove(props.data.id)}>Remove</button>
             </div>
         </div>
     )

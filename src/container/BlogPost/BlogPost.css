@@ -5,6 +5,7 @@
 .card{
     width: 250px;
     border: 1px solid #000;
+    margin-bottom: 15px;
 }
 /* .img-thumb{
     width: 100%;
@@ -21,4 +22,18 @@ img{
 }
 .content{
     color: darkgrey;
+}
+.btn {
+    padding: 5px 5px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    width: 100px;
+    border: 1px solid #fff;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid red;
+    color: red;
 }
